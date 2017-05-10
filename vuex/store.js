@@ -10,7 +10,7 @@ const state = {
 }
 
 //define the possible mutations that can be applied to our state
-const mustations = {
+const mutations = {
   ADD_NOTE (state) {
     const newNote = {
       text: 'New note',

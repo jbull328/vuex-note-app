@@ -1,15 +1,14 @@
 module.exports = {
-  enrty: './main.js',
+  entry: './main.js',
   output: {
     path: __dirname,
     filename: 'build.js'
   },
-
   module: {
     loaders: [
       {
         test: /\.js$/,
-        loader: 'bable',
+        loader: 'babel',
         exclude: /node_modules/
       },
       {
